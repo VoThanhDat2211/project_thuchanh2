@@ -1,0 +1,73 @@
+2023-12-28 00:12:47.141  INFO 15760 --- [restartedMain] c.w.WebsiteMuasamtructuyenApiApplication : Starting WebsiteMuasamtructuyenApiApplication using Java 19.0.2 on VoThanhDat with PID 15760 (C:\Users\vdat2\eclipse-workspace\website_muasamtructuyen_api\website_muasamtructuyen_api\target\classes started by vdat2 in C:\Users\vdat2\eclipse-workspace\website_muasamtructuyen_api\website_muasamtructuyen_api)
+2023-12-28 00:12:47.163  INFO 15760 --- [restartedMain] c.w.WebsiteMuasamtructuyenApiApplication : No active profile set, falling back to 1 default profile: "default"
+2023-12-28 00:12:47.350  INFO 15760 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-28 00:12:47.351  INFO 15760 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-28 00:12:48.571  INFO 15760 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-28 00:12:48.656  INFO 15760 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interfaces.
+2023-12-28 00:12:49.778  INFO 15760 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-12-28 00:12:49.797  INFO 15760 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-28 00:12:49.798  INFO 15760 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-12-28 00:12:49.959  INFO 15760 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-28 00:12:49.979  INFO 15760 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2626 ms
+2023-12-28 00:12:50.243  INFO 15760 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-28 00:12:50.865  INFO 15760 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-28 00:12:50.923  INFO 15760 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-28 00:12:51.002  INFO 15760 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-12-28 00:12:51.520  INFO 15760 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-28 00:12:51.643  INFO 15760 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-12-28 00:12:52.787  INFO 15760 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-28 00:12:52.795  INFO 15760 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-28 00:12:53.135  WARN 15760 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-28 00:12:57.159  INFO 15760 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-28 00:12:57.232  INFO 15760 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-28 00:12:57.255  INFO 15760 --- [restartedMain] c.w.WebsiteMuasamtructuyenApiApplication : Started WebsiteMuasamtructuyenApiApplication in 10.859 seconds (JVM running for 11.428)
+2023-12-28 00:13:35.499  INFO 15760 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-12-28 00:13:35.528  INFO 15760 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-12-28 00:13:35.538  INFO 15760 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-28 00:13:35.543  INFO 15760 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-28 00:13:35.553  INFO 15760 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-12-28 00:13:35.761  INFO 15760 --- [restartedMain] c.w.WebsiteMuasamtructuyenApiApplication : Starting WebsiteMuasamtructuyenApiApplication using Java 19.0.2 on VoThanhDat with PID 15760 (C:\Users\vdat2\eclipse-workspace\website_muasamtructuyen_api\website_muasamtructuyen_api\target\classes started by vdat2 in C:\Users\vdat2\eclipse-workspace\website_muasamtructuyen_api\website_muasamtructuyen_api)
+2023-12-28 00:13:35.761  INFO 15760 --- [restartedMain] c.w.WebsiteMuasamtructuyenApiApplication : No active profile set, falling back to 1 default profile: "default"
+2023-12-28 00:13:36.053  INFO 15760 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-28 00:13:36.073  INFO 15760 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interfaces.
+2023-12-28 00:13:36.243  INFO 15760 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-12-28 00:13:36.249  INFO 15760 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-28 00:13:36.250  INFO 15760 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-12-28 00:13:36.317  INFO 15760 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-28 00:13:36.318  INFO 15760 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 552 ms
+2023-12-28 00:13:36.372  INFO 15760 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-12-28 00:13:36.411  INFO 15760 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-12-28 00:13:36.418  INFO 15760 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-28 00:13:36.439  INFO 15760 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-12-28 00:13:36.984  INFO 15760 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-28 00:13:36.985  INFO 15760 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-28 00:13:37.058  WARN 15760 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-28 00:13:37.754  INFO 15760 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-28 00:13:37.773  INFO 15760 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-28 00:13:37.782  INFO 15760 --- [restartedMain] c.w.WebsiteMuasamtructuyenApiApplication : Started WebsiteMuasamtructuyenApiApplication in 2.092 seconds (JVM running for 51.955)
+2023-12-28 00:13:37.786  INFO 15760 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-12-28 00:14:06.915  INFO 15760 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-12-28 00:14:07.039  INFO 15760 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-12-28 00:14:07.047  INFO 15760 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-28 00:14:07.048  INFO 15760 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-12-28 00:14:07.067  INFO 15760 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-12-28 00:14:07.246  INFO 15760 --- [restartedMain] c.w.WebsiteMuasamtructuyenApiApplication : Starting WebsiteMuasamtructuyenApiApplication using Java 19.0.2 on VoThanhDat with PID 15760 (C:\Users\vdat2\eclipse-workspace\website_muasamtructuyen_api\website_muasamtructuyen_api\target\classes started by vdat2 in C:\Users\vdat2\eclipse-workspace\website_muasamtructuyen_api\website_muasamtructuyen_api)
+2023-12-28 00:14:07.247  INFO 15760 --- [restartedMain] c.w.WebsiteMuasamtructuyenApiApplication : No active profile set, falling back to 1 default profile: "default"
+2023-12-28 00:14:07.665  INFO 15760 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-28 00:14:07.689  INFO 15760 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+2023-12-28 00:14:08.011  INFO 15760 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-12-28 00:14:08.013  INFO 15760 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-28 00:14:08.013  INFO 15760 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-12-28 00:14:08.073  INFO 15760 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-28 00:14:08.074  INFO 15760 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 820 ms
+2023-12-28 00:14:08.715  INFO 15760 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-12-28 00:14:08.906  INFO 15760 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-12-28 00:14:08.913  INFO 15760 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-28 00:14:08.924  INFO 15760 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-12-28 00:14:09.321  INFO 15760 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-28 00:14:09.322  INFO 15760 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-28 00:14:09.380  WARN 15760 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-28 00:14:10.215  INFO 15760 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-28 00:14:10.230  INFO 15760 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-28 00:14:10.237  INFO 15760 --- [restartedMain] c.w.WebsiteMuasamtructuyenApiApplication : Started WebsiteMuasamtructuyenApiApplication in 3.061 seconds (JVM running for 84.41)
+2023-12-28 00:14:10.241  INFO 15760 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
